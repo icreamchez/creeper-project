@@ -9,7 +9,7 @@
 //  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 // ============================================================
 
-const MODEL_URL = "https://teachablemachine.withgoogle.com/models/43prg9ZF6/";
+const MODEL_URL = "https://teachablemachine.withgoogle.com/models/oqt-g599p/";
 
 // ─── Teachable Machine State ────────────────────────────────
 let tmModel, tmWebcam;
@@ -89,7 +89,7 @@ let reformTimer = 0;
 // Gesture hold counter
 let lastGesture = "none";
 let gestureHold = 0;
-let statusText = "Show 👍 or 👎";
+let statusText = "Show greenball or redball";
 
 function getColor(v) {
   if (v === 1) return color(50, 168, 82);
